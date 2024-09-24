@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+/*navbar*/
+.navbar{
+    height: 50px;
+    color: #00192F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15PX;
+    background-color: #cccc;
+    
+}
+
+.nav-logo{
+    height:100%;
+    width: 240px;
+}
+
+.logo{
+    background-image: url(img/yogi\ logo\ nav.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+} 
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid #00192F
+
+}
+/**box2**/
+
+.add-first{
+    margin-top: 5px;
+    color: #7166647e;
+    font-size: 0.75rem;
+    margin-left: 10px;
+}
+
+.add-sec{
+     font-size: 1rem;
+     margin-left:3px;
+}
+
+.add-icon{
+    
+    display: flex;
+    align-items: center;     
+}
+
+/**box3**/
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(143, 142, 142);
+    width: 900px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.nav-search:hover{
+    border: 2px solid #cccc;
+
+}
+.search-select{
+    width: 50px;
+    background: #cccc;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+
+}
+.search-inp{
+    width:100%;
+    font-size: 1rem;
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**box4**/
+
+
+span{
+    font-size:  0.75rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;    
+}
+
+/**box4**/
+.nav-cart{
+    width: 100px; 
+    align-items: center;
+    display: flex;
+    
+}
+
+.nav-cart i{
+    width: 60px;
+    font-size: 38px;
+    margin-left: 15px;    
+}
+.nav-cart p{
+    
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/***pannel*/
+
+
+.pannel{
+    height: 40px;
+    background:rgb(133, 133, 132);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-all{
+    display: flex;
+    
+}
+.pannel-all p{
+    margin-left: 15px;
+}
+
+.pannel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.pannel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannnel-luxary{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+/****hero section*****/
+
+.hero-section{
+    background-image: url(img/climatic-place-1368872.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-text{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 25px ;
+    border-radius: 8px;
+}
+.hero-text a{
+    color: #007185;
+}
+
+/***shop shection***/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(143, 142, 142);
+}
+
+.box {
+    border-radius: 8px;    
+    height: 600px;
+    width: 48%;
+    margin-top: 6px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    
+}
+
+.box-img{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+
+}
+.box-content{    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.box-content h2{
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+
+
+/**Footer**/
+
+.footer-section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:rgb(143, 142, 142);;
+    font-size: 20px;
+    height: 50px;
+}
+.copyright{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    height: 60px;
+}
